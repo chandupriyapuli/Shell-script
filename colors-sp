@@ -6,7 +6,7 @@ Y="\e[33m"
 cyan="\e[36m"
 B="\e[44m"
 N="\e[0m"
-IR="\e[3;${R}m"
+IR="\e[3;${cyan}m"
 
 echo -e "$R Sindu $N"
 echo -e " $IR Priya $N"
