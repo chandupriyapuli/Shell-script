@@ -21,7 +21,8 @@ echo -e "${red_bg}${reset}"
 echo -e "${green_bg}${reset}"
 
 echo "* * * * * * * * * * * * * * * * * * * * * *"
-echo  -e "\033[97;44m wight text and blue bacground\033[0m"
+echo  -e "\e[97;44m wight text and blue bacground\e[0m"
+echo ""
 echo -e "\033[37;44m White text on a blue background!\033[0m"
 
 echo -e "${red1}Hello World!${reset}"
