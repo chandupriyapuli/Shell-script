@@ -5,4 +5,4 @@ G="\e[32m"
 N="\e[0m"
 
 echo -e "$R Sindu $N"
-echo "$G Priya $N"
+echo -e "$G Priya $N"
