@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Please Enter User-Name: "
+
+read USERNAME
+echo "Please Enter Passward:"
+read PASSWARD
+
+echo "User-Nameis:  $USERNAME and Passward is:  $PASSWARD"
