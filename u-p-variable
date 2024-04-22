@@ -2,8 +2,8 @@
 
 echo "Please Enter User-Name: "
 
-read USERNAME
+read -s USERNAME
 echo "Please Enter Passward:"
-read PASSWARD
+read -s PASSWARD
 
 echo "User-Nameis:  $USERNAME and Passward is:  $PASSWARD"
