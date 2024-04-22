@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Ansi color code variables
-red="\e[1;31m"
+red1="\e[0;31m"
+red2="\e[1;91m"
+red3="\e[2;31m"
 blue="\e[0;94m"
 expand_bg="\e[K"
 blue_bg="\e[0;104m${expand_bg}"
@@ -18,7 +20,13 @@ echo -e "${blue_bg}${reset}"
 echo -e "${red_bg}${reset}"
 echo -e "${green_bg}${reset}"
 
-echo ""
+echo "* * * * * * * * * * * * * * * * * * * * * *"
+
+echo -e "${red1}Hello World!${reset}"
+echo -e "${red2}Hello World!${reset}"
+echo -e "${red3}Hello World!${reset}"
+
+echo "* * * * * * * * * * * * * * * * * * * * * *"
 
 # colored text
 echo -e "${red}Hello World!${reset}"
