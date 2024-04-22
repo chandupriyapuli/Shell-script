@@ -5,8 +5,8 @@ LR="/e[1;91m"
 N="/e[0m"
 echo "Please Enter User-Name: "
 
-read -s USERNAME 
+read -s $RED USERNAME $N
 echo "Please Enter Passward:"
-read -s PASSWARD
+read -s $LR PASSWARD $N
 
-echo "User-Nameis: $RED $USERNAME $N and Passward is:$LR  $PASSWARD $N"
+echo "User-Nameis:  $USERNAME and Passward is:  $PASSWARD "
