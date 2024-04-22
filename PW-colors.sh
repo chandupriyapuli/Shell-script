@@ -9,4 +9,4 @@ read -s USERNAME
 echo "Please Enter Passward:"
 read -s PASSWARD
 
-echo "User-Nameis: $RED {$USERNAME} $N and Passward is:$LR  {$PASSWARD} $N"
+echo "User-Nameis: $RED $USERNAME $N and Passward is:$LR  $PASSWARD $N"
