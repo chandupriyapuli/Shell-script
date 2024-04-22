@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ansi color code variables
-red="\e[1;91m"
+red="\e[2;91m"
 blue="\e[0;94m"
 expand_bg="\e[K"
 blue_bg="\e[0;104m${expand_bg}"
