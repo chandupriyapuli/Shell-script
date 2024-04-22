@@ -2,7 +2,7 @@
 
 # Ansi color code variables
 red1="\e[0;31m"
-red2="\e[1;91m"
+red2="\e[0;91m"
 red3="\e[2;31m"
 blue="\e[0;94m"
 expand_bg="\e[K"
