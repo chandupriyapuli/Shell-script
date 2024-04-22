@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RED="\e[31m"
+RED="\e[0;31m"
 G="\e[32m"
 Y="\e[33m"
 cyan="\e[36m"
