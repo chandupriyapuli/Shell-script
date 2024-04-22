@@ -9,4 +9,4 @@ N="\e[0m"
 IR="\e[3;$Rm"
 
 echo -e "$R Sindu $N"
-echo -e "$B $IR Priya $N"
+echo -e " $IR Priya $N"
