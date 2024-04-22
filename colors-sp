@@ -1,12 +1,12 @@
 #!/bin/bash
 
-R="\e[31m"
+RED="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 cyan="\e[36m"
 B="\e[44m"
 N="\e[0m"
-IR="\e[3;36m"
+IR="\e[3;${RED}m"
 
-echo -e "$R Sindu $N"
+echo -e "$RED Sindu $N"
 echo -e " $IR Priya $N"
