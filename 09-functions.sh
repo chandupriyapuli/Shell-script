@@ -7,4 +7,4 @@ ADD-FUN()
     NO2=$2
     echo " $(($NO1+$NO2))"
 }
-ADD-FUN $1 $2
+ADD-FUN "$1" "$2"
