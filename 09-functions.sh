@@ -1,7 +1,10 @@
 
 #!/bin/bash
 
-a=$1
-b=$2
-p=$(($a*$b))
-echo "The product of $a and $b = $p"
+ADD-FUN()
+{
+    NO1=$1
+    NO2=$2
+    echo " $(($NO1+$NO2))"
+}
+ADD-FUN $1 $2
