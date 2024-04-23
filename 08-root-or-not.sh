@@ -1,5 +1,9 @@
 #!/bin bash
 
+#How to find we are using "ROOT User" Access Or NOt
+# Using (id -u) cammand we have to know we are in "Root User" or not
+#$(id -u)=0 we are in "Root User" Access. Other wise we are Using "Normal User"
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
