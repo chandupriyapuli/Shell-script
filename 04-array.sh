@@ -2,4 +2,4 @@
 
 # declare static Array
 my-array=("sindu","priya","chandu","siva","kumar")
-echo $[@]
+echo ${my-array[@]}
