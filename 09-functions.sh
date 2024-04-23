@@ -4,5 +4,5 @@ add() {
 }
 
 # Call the function and capture the return value
-result=$(add)
+result=$(add $a $b)
 echo "The result is: $result"
