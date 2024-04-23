@@ -19,3 +19,4 @@ then
     exit1
  else 
      echo " Now your in Super user"
+  fi   
