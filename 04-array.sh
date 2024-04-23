@@ -1,13 +1,8 @@
 #!/bin/bash
 
 # declare static Array
-MOVIES=("RRR" "DjTillu" "murari")
+names=("sindu" "siva" "67" "priya")
 
-# size of above array is 3.
-# index are 0,1,2
+echo "Tha First name of Array is:${names[1]}"
 
-# list always starts with 0.
-
-echo "First Movie is: ${MOVIES[0]}"
-echo "First Movie is: ${MOVIES[1]}"
-echo "First Movie is: ${MOVIES[@]}"
+echo ${names[@]}
