@@ -11,4 +11,11 @@ then
     echo "please run this script with root Access"
     else 
      echo " This is sudo Access or ROOT Access "
-fi    
+fi 
+
+if [ $? -ne 0]
+then
+    echo " The previous execution fails. so chec that command or code"
+    exit1
+ else 
+     echo " Now your in Super user"
