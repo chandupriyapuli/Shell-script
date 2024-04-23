@@ -13,6 +13,8 @@ then
      echo " This is sudo Access or ROOT Access "
 fi 
 
+dnf install mysql -y
+
 if [ $? -ne 0 ]
 then
     echo " The previous execution fails. so chec that command or code"
