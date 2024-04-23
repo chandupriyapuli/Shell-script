@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Define a function that returns a value
 add() {
     echo "$(($1 + $2))"
