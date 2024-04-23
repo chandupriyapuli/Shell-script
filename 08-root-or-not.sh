@@ -13,7 +13,7 @@ then
      echo " This is sudo Access or ROOT Access "
 fi 
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then
     echo " The previous execution fails. so chec that command or code"
     exit1
