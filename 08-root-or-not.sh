@@ -12,9 +12,9 @@ then
     else 
      echo " This is sudo Access or ROOT Access "
 fi 
-
+echo "*******************************************************************************************************"
 dnf install mysql -y
-
+echo "*******************************************************************************************************"
 if [ $? -ne 0 ]
 then
     echo " The previous execution fails. so chec that command or code"
