@@ -1,10 +1,10 @@
 #!/bin/bash
-
+a=$1
+b=$2
 
 ADD()
 {
-   local a
-   local b
+
    echo "The Sum of two numbersis: $(a+b)"
 
 }
