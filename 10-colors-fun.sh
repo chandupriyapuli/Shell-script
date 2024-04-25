@@ -37,4 +37,3 @@ VALIDATE $? "Installing Git"
 dnf install dockerr -y &>>$LOGFILE
 VALIDATE $? "Installing Docker"
 
-echo "The log file is: $LOGFILE"
