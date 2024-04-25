@@ -4,6 +4,7 @@ ADD()
 {
 
   local res=$(($1+$2))
+  echo $res
 
 }
 echo "enter 1's Num:"
