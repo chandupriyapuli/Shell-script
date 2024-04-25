@@ -5,4 +5,4 @@ hello()
  local name=$1
     echo "Hi everyone, This is $name"
 }
-hello $1
+hello  echo -e  "\n enter your name: "$1
