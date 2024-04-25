@@ -3,9 +3,9 @@
 
 ADD()
 {
-   local $1
-   local $2
+   local a
+   local b
    echo "The Sum of two numbersis: $(a+b)"
 
 }
-ADD a b
+ADD $1 $2
